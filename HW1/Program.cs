@@ -8,13 +8,17 @@
             Console.Write("enter the payment amount : ");
             double paymentAmount = Convert.ToDouble(Console.ReadLine());
             double paymentAfterDiscount = paymentAmount;
-            if (paymentAmount >= 500)
+            if (paymentAmount < 0)
             {
-                paymentAfterDiscount = paymentAfterDiscount - paymentAmount * 0.2 ;
+                Console.WriteLine($" {paymentAmount}invalid bill amount ");
+            }
+          else if (paymentAmount >= 500)
+            {
+                paymentAfterDiscount = paymentAfterDiscount - paymentAmount * 0.2;
             }
             else if (paymentAmount >= 300 && paymentAmount < 500)
             {
-                paymentAfterDiscount = paymentAfterDiscount -  paymentAmount * 0.1  ;
+                paymentAfterDiscount = paymentAfterDiscount - paymentAmount * 0.1;
             }
             else if (paymentAmount < 300)
             {
