@@ -1,8 +1,4 @@
-﻿internal class Program
-{
-    private static void Main(string[] args)
-    {
-        char tryAgain;
+﻿        char tryAgain;
         do
         {
             Console.Write("enter the payment amount : ");
@@ -32,7 +28,7 @@
             Console.WriteLine($"your bill Id {paymentId} ");
             Console.Write($"do you have another payment y/n ? ");
           
-             tryAgain = Convert.ToChar( Console.ReadLine());
+             tryAgain = Convert.ToChar(Console.ReadLine());
          
         }
         while (tryAgain == 'y');
@@ -43,5 +39,3 @@
          * thats the only AI help i used 
          *
          */
-    }
-}
