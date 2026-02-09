@@ -33,7 +33,7 @@
         }
         while (tryAgain == 'y');
         /*
-         * i faced a problem int the tryAgain var 
+         * i faced a problem in the tryAgain var 
          * the var was inside the (do) loop thats why it didnt work
          * i asked shatgpt to fix and explain it 
          * thats the only AI help i used 
