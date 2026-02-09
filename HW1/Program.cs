@@ -35,7 +35,7 @@
         /*
          * i faced a problem in the tryAgain var 
          * the var was inside the (do) loop thats why it didnt work
-         * i asked shatgpt to fix and explain it 
+         * i asked chatgpt to fix and explain it 
          * thats the only AI help i used 
          *
          */
