@@ -10,7 +10,7 @@
             double paymentAfterDiscount = paymentAmount;
             if (paymentAmount < 0)
             {
-                Console.WriteLine($" {paymentAmount}invalid bill amount ");
+                Console.WriteLine($" invalid bill amount ");
             }
           else if (paymentAmount >= 500)
             {
